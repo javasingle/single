@@ -1,7 +1,6 @@
 package com.single.singletest.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class SingleController {
@@ -10,5 +9,13 @@ public class SingleController {
     public String singletest(){
         System.out.println("springboot-controller-test");
         return "hello word";
+    }
+
+    @RequestMapping(value = "/{ip:.+}")
+    @ResponseBody
+    public String getIp(@PathVariable("ip") String ip){
+        System.out.println(ip);
+        return ip;
+
     }
 }
