@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/single-test" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/sing-admin/src/main/java" charset="UTF-8" />
+>>>>>>> 94bfeb1f128bc75390bf748042f04f557ffa9c3f
     <file url="file://$PROJECT_DIR$/single-test/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

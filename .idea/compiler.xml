@@ -6,6 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+=======
+        <module name="sing-admin" />
+        <module name="single" />
+>>>>>>> 94bfeb1f128bc75390bf748042f04f557ffa9c3f
         <module name="single-test" />
       </profile>
     </annotationProcessing>
