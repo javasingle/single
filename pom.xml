@@ -18,6 +18,7 @@
     <modules>
         <module>single-test</module>
         <module>sing-admin</module>
+        <module>single-kafka</module>
     </modules>
 
     <!--配置参数(注释掉的在)-->
