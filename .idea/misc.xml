@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/single-test/pom.xml" />
         <option value="$PROJECT_DIR$/sing-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/single-rbac/pom.xml" />
+        <option value="$PROJECT_DIR$/security-demo/pom.xml" />
       </list>
     </option>
   </component>

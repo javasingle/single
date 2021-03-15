@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.7.RELEASE</version>
+        <version>2.3.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.single</groupId>
@@ -18,7 +18,8 @@
     <modules>
         <module>single-test</module>
         <module>sing-admin</module>
-        <module>single-kafka</module>
+        <module>single-rbac</module>
+        <module>single-cache</module>
     </modules>
 
     <!--配置参数(注释掉的在)-->

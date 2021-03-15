@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
-=======
+        <module name="single-jpa-demo" />
+        <module name="single-cache" />
         <module name="sing-admin" />
-        <module name="single" />
->>>>>>> 94bfeb1f128bc75390bf748042f04f557ffa9c3f
+        <module name="single-rbac" />
         <module name="single-test" />
+        <module name="security-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="single" target="1.8" />
-      <module name="single-test" target="1.8" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="security-demo" options="-parameters" />
+      <module name="sing-admin" options="-parameters" />
+      <module name="single-cache" options="-parameters" />
+      <module name="single-jpa-demo" options="-parameters" />
+      <module name="single-rbac" options="-parameters" />
+      <module name="single-test" options="-parameters" />
+    </option>
   </component>
 </project>
